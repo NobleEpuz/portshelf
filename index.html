@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortShelf</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>PortShelf</h1>
+    <input type="text" id="search" placeholder="Поиск игр...">
+    <select id="platform-filter">
+        <option value="">Все платформы</option>
+        <option value="PSP">PSP</option>
+        <option value="PS Vita">PS Vita</option>
+        <option value="PS3">PS3</option>
+        <option value="Switch">Nintendo Switch</option>
+		<option value="3DS">Nintendo 3DS</option>
+    </select>
+</header>
+
+<main>
+    <div id="game-list" class="grid"></div>
+</main>
+
+<footer>
+    <div class="socials">
+        <a href="#" target="https://vk.com/homebrewpsp">VK</a> |
+        <a href="#" target="https://t.me/PSP_GAME_HOMEBREW">Telegram</a> |
+        <a href="#" target="_blank">GitHub</a>
+    </div>
+    <p>© 2025 PortShelf — при поддержке F:/PSP/GAME (+███❖)</p>
+</footer>
+
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span id="closeModal" class="close">&times;</span>
+        <h2 id="game-title"></h2>
+        <p id="game-description"></p>
+        <div id="screenshots" class="screenshots"></div>
+        <select id="platform-select"></select>
+        <a id="download-btn" class="download-btn" href="#" target="_blank">Скачать</a>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

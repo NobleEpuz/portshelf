@@ -1,0 +1,44 @@
+[
+    {
+        "title": "Quake",
+        "shortDescription": "Quake 1 — одна из первых полностью трёхмерных игр-шутеров от первого лица, выпущенных id Software.",
+        "description": "Quake — компьютерная игра в жанре шутера от первого лица, разработанная id Software и выпущенная 22 июля 1996 года. Перед официальным выпуском полной версии игры, а именно 24 февраля 1996 года была выпущена технологическая демоверсия игры под названием QTest.",
+        "author": "id Software",
+        "cover": "covers/quake.jpg",
+        "screenshots": [
+            "screenshots/quake_scr1.jpg"
+        ],
+        "platforms": {
+            "PSP": "https://archive.org/download/psp-quake-1-v-11.0-slim.-7z/Old%20Versions/PSP_Quake_1_v_11.0_slim.zip",
+            "PS Vita": "https://dlhb.gamebrew.org/vitahomebrews/vitaquake.7z?k33p0fil35"
+        }
+    },
+    {
+        "title": "Quake II",
+        "shortDescription": "Quake 2 — продолжение Quake 1, одной из первых полностью трёхмерных игр-шутеров от первого лица, выпущенных id Software.",
+        "description": "Quake II — компьютерная игра в жанре шутера от первого лица, вышедшая 9 декабря 1997 года. Разработана компанией id Software, издана Activision. Музыка к игре написана Sonic Mayhem.",
+        "author": "id Software",
+        "cover": "covers/quake2.jpg",
+        "screenshots": [
+            "screenshots/quake2_scr1.jpg"
+        ],
+        "platforms": {
+            "PSP": "https://github.com/Crow-bar/PSPQuake2/releases/download/v0.2/Quake2-PSP-release-v0.2.zip"
+        }
+    },
+    {
+        "title": "Sonic Mania",
+        "shortDescription": "Декомпиляция Sonic Mania от Rubberduckycooly.",
+        "description": "Sonic Mania — компьютерная игра серии Sonic the Hedgehog в жанре платформера, разработанная Кристианом Уайтхедом и студиями Headcannon и PagodaWest Games и изданная компанией Sega для платформ PlayStation 4, Xbox One, Switch и PC-совместимых компьютеров под управлением Windows летом 2017 года.",
+        "author": "SEGA",
+        "cover": "covers/sonicmania.jpg",
+        "screenshots": [
+            "screenshots/sonicmania_scr1.jpg"
+        ],
+        "platforms": {
+            "PSP": "https://github.com/smb123w64gb/RSDKv5-Decompilation/releases/download/Alpha/ManiaPSP.Alpha.2.zip",
+			"PS Vita": "https://github.com/SonicMastr/Sonic-Mania-Vita/releases/download/1.1/SonicMania.vpk",
+			"PS3": "https://github.com/DropSonic0/Sonic-Mania-Decompilation/releases/download/99.99/SonicMania.pkg"
+        }
+    }
+]
