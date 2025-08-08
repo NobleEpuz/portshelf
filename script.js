@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let allGames = [];
 
-    fetch("games.json")
+    fetch(`games.json?version=${new Date().getTime()}`, { cache: "no-store" })
         .then(res => res.json())
         .then(data => {
             allGames = data;
@@ -90,3 +90,4 @@ document.addEventListener("DOMContentLoaded", () => {
         renderGames(filtered);
     }
 });
+
